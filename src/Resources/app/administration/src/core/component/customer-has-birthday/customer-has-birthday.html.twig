@@ -1,0 +1,9 @@
+{% block sw_condition_value_content %}
+    <sw-single-select name="customer-has-birthday"
+                      id="customer-has-birthday"
+                      size="medium"
+                      :options="selectValues"
+                      v-model="hasBirthday"
+                      class="field--main">
+    </sw-single-select>
+{% endblock %}

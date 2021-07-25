@@ -1,0 +1,18 @@
+{
+  "name": "hoelshare/rule-birthday",
+  "description": "Customer has birthday",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BirthdayRule\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "BirthdayRule\\BirthdayRule",
+    "label": {
+      "de-DE": "Regel, ob der Kunde Geburtstag hat.",
+      "en-GB": "Rule, if the customer has birthday."
+    }
+  }
+}
